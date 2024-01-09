@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <StickyNavbar/>
+        < Navbar/>
         <h1>Hello World</h1>
       </header>
     </div>
