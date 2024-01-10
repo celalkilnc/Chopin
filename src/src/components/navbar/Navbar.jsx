@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavbarStyle.css";
+import ProfileIcon from "../../icons/ProfileIcon";
 
 function Navbar() {
   return (
@@ -11,6 +12,7 @@ function Navbar() {
           <li className="navItem">About</li>
           <li className="navItem">Contact</li>
         </ul>
+        <ProfileIcon />
       </div>
     </div>
   );

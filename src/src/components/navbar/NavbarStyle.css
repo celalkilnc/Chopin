@@ -31,12 +31,19 @@
     cursor: pointer;
 }
 
-.navElements {}
+.navElements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
 
 .navItems {
     font-size: 20px;
     width: auto;
     display: flex;
+
+    margin: 0;
 }
 
 .navItem {

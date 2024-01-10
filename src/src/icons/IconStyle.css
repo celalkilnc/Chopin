@@ -1,0 +1,13 @@
+.profileIcon{
+    fill: #333338;
+    transition: all 0.2s;
+    
+    border-radius: 15px;
+    padding: 0.1rem;
+}
+
+.profileIcon:hover{
+    cursor: pointer;
+    fill: rgba(255, 255, 255, 0.9);
+    background-color: #333338;
+}
