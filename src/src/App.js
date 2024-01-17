@@ -1,12 +1,13 @@
- import './App.css';
-import Navbar, { StickyNavbar } from './components/navbar/Navbar';
+import "./App.css";
+import Navbar, { StickyNavbar } from "./components/navbar/Navbar";
+import RouterIndex from "./router/RouterIndex";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        < Navbar/>
-        <h1>Hello World</h1>
+        <Navbar />
+        <RouterIndex />
       </header>
     </div>
   );

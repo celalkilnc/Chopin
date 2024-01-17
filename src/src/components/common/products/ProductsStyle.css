@@ -1,0 +1,4 @@
+.productsArea{
+    display: flex;
+    flex-wrap: wrap;
+}

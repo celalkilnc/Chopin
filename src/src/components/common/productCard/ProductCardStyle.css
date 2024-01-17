@@ -1,0 +1,44 @@
+.container {
+    width: 15rem;
+    height: fit-content;
+    padding: 3px;
+    margin-bottom: 1rem;
+
+    border: 2px black solid;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aqua;
+
+    max-height: 20rem;
+}
+
+.imageCon {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image {
+    border-radius: 3px;
+    width: 100%;
+}
+
+.info {
+    width: 95%; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.name {
+    margin: 0;
+}
+
+.price {
+    margin: 0;
+}

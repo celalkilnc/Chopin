@@ -1,0 +1,23 @@
+.homePage {
+    height: 100%;
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.filters {
+    height: 30rem;
+    width: 17%;
+
+    background-color: purple;
+}
+
+.products {
+    
+    justify-content: space-around;
+    padding: 0 1rem;
+    overflow-y: auto;
+    width: 70%;
+    height: fit-content;
+}
